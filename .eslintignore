@@ -1,0 +1,16 @@
+# Node modules
+node_modules
+
+# Build output
+dist
+
+# Configuration files
+.eslintrc.js
+eslint.config.cjs
+vite.config.ts
+jest.config.js
+babel.config.js
+tsconfig.json
+
+# Test files
+src/__tests__/*
