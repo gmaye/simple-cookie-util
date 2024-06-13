@@ -1,8 +1,11 @@
 {
   "name": "@gmaye/simple-cookie-util",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple Cookie utility for browsers",
-  "main": "index.js",
+  "main": "dist/cookie-util.umd.js",
+  "main:umd": "dist/cookie-util.umd.js",
+  "module": "dist/cookie-util.es.js",
+  "jsnext:main": "dist/cookie-util.es.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -19,6 +22,9 @@
       "eslint --fix"
     ]
   },
+  "files": [
+    "/dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gmaye/simple-cookie-util.git"
