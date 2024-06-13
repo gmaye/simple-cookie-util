@@ -1,6 +1,6 @@
 {
-  "name": "simple-cookie-util",
-  "version": "1.0.0",
+  "name": "@gmaye/simple-cookie-util",
+  "version": "1.0.1",
   "description": "Simple Cookie utility for browsers",
   "main": "index.js",
   "scripts": {
