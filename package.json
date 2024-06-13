@@ -1,13 +1,24 @@
 {
   "name": "@gmaye/simple-cookie-util",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple Cookie utility for browsers",
-  "main": "dist/cookie-util.umd.js",
+  "main": "dist/cookie-util.es.js",
   "module": "dist/cookie-util.es.js",
+  "browser": "dist/cookie-util.es.js",
+  "unpkg": "dist/cookie-util.umd.js",
   "types": "dist/types/index.d.ts",
   "files": [
     "dist"
   ],
+  "exports": {
+    ".": {
+      "browser": "./dist/cookie-util.umd.js",
+      "module": "./dist/cookie-util.es.js",
+      "import": "./dist/cookie-util.es.js",
+      "umd": "./dist/cookie-util.umd.js",
+      "require": "./dist/cookie-util.umd.js"
+    }
+  },
   "scripts": {
     "clean": "rimraf dist",
     "dev": "vite",
