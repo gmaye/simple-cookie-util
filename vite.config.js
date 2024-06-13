@@ -7,7 +7,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
       name: 'CookieUtil',
-      fileName: (format) => `cookie-util.${format}.js`
-    }
-  }
+      fileName: (format) => `cookie-util.${format}.js`,
+    },
+  },
 });
